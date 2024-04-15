@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class BowlingTest {
 
-
+ 
     @Test
     public void testEmptyGame() {
         Game game = new Game();
