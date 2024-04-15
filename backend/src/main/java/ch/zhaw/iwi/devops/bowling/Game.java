@@ -5,7 +5,7 @@ public class Game {
     private int[] rolls = new int[21]; // 21 is the max number of rolls in a game
     private int currentRoll = 0;
     
-    public void roll(int pins) {
+    public void roll(int pins) { 
         rolls[currentRoll++] = pins;
     }
     
